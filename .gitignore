@@ -1,0 +1,23 @@
+# Build output
+/build/
+/out/
+/cmake-build-*/
+
+# Accidental in-source build
+CMakeCache.txt
+CMakeFiles/
+
+# CMake user-local files
+CMakeUserPresets.json
+CMakeSettings.json
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.user
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
